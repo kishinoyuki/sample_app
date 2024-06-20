@@ -31,12 +31,12 @@ header {
   border-top: solid 5px #000000;
 }
 
-header.headline {
-  font-size: 12px;
+header .headline {
+  font-size: 32px;
 }
 
 nav {
-  width: 800px;
+  width: 880px;
   margin: 0 auto;
   border-top: solid 0.7px #000000;
   border-bottom: solid 0.7px #000000;
@@ -50,7 +50,7 @@ nav {
 
 .nav-list-item {
   list-style: none;
-  display: inline-box;
+  display: inline-block;
   margin: 0 20px;
 }
 
@@ -95,3 +95,20 @@ main {
   text-overflow: ellipsis;
 }
 
+.flash-message {
+  border-radius: 5px;
+  padding: 16px 24px;
+  margin: 16px 0;
+}
+
+.flash-message.notice {
+  background-color: #bcdfff;
+  color: #0067C0;
+  border: solid 1px #0067C0;
+}
+
+.flash-message.alert {
+  background-color: #ffd4d1;
+  color: #930403;
+  border: solid 1px #930403;
+}
